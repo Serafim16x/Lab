@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  min-height: 100px;
+  background-color: #C0C0C0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  min-height: 100px;
+  background-color:#C0C0C0;
+}
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+main p {
+  margin-top: 30px;
+}
+form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+}
+button {
+  min-width: 250px;
+  max-width: max-content;
+}
+
+.input-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  flex-direction: column;
+}
+
+.input-group-text {
+  max-width: 100%;
+}
+
+.buttom{
+  flex-direction: column;
+  gap: 12px;
+}
+.custom-size {
+  width: 100%;
+max-width: 450px;
+}
